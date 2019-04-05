@@ -34,7 +34,7 @@ public class Query {
         List<String>list=new ArrayList<>();
         while(result.next())
         {
-            list.add(result2.getString("interst"));
+            list.add(result2.getString("name"));
         }
 
         return list;
