@@ -19,4 +19,15 @@ public class QuizzesService {
      {
          return quizzeRepository.findAll();
      }
+     public List<String> getQuizzes(Integer id)
+     {
+         User ob=userRepository.findOne(id);
+         String interest=ob.getInterst();
+
+         TypedQuery<String> query = em.createQuery(
+                 "SELECT name FROM quizzes WHERE interst="+interest+"", String.class);
+          List<String> results = query.getResultList();
+         return results;
+     }
 }
+
