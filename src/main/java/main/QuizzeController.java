@@ -31,4 +31,10 @@ public class QuizzeController {
         return quizzesService.getRecommendedQuizzes(id);
 
     }
+     @RequestMapping(value = "/{id}")
+    public List<String> getQuizzes(@PathVariable Integer id)
+    {
+        return quizzesService.getQuizzes(id);
+
+    }
 }
