@@ -11,7 +11,9 @@ import javax.persistence.TypedQuery;
 
 @Service
 public class QuizzesService {
-
+    
+    @PersistenceContext
+    private EntityManager em;
 
     @Autowired
     private UserRepository userRepository;
