@@ -12,8 +12,8 @@ import javax.persistence.TypedQuery;
 @Service
 public class QuizzesService {
     
-    @PersistenceContext
-    private EntityManager em;
+    /*@PersistenceContext
+    private EntityManager em;*/
 
     @Autowired
     private UserRepository userRepository;
@@ -26,7 +26,7 @@ public class QuizzesService {
      {
          return quizzeRepository.findAll();
      }
-     public List<String> getQuizzes(Integer id)
+     /*public List<String> getQuizzes(Integer id)
      {
          User ob=userRepository.findOne(id);
          String interest=ob.getInterst();
@@ -35,6 +35,6 @@ public class QuizzesService {
                  "SELECT name FROM quizzes WHERE interst="+interest+"", String.class);
           List<String> results = query.getResultList();
          return results;
-     }
+     }*/
 }
 
