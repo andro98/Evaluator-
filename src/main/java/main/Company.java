@@ -8,25 +8,24 @@ import javax.persistence.*;
 public class Company {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private int id;
+    private Integer id;
     @Column(name="name")
     private String name;
-    @Column(name="interest")
+    @Column(name="interst")
     private String interest;
-    /*@Column(name="limitProblemSolving")
-    private int limitProblemSolving;
-    @Column(name="limitInterestScore")
-    private int limitInterestScore;
-    @Column(name="limitAge")
-    private int limitAge;*/
+    @Column(name="limitproblemsolving")
+    private Integer limitproblemsolving;
+    @Column(name="limitinterestscore")
+    private Integer limitinterestscore;
+    @Column(name="limitage")
+    private Integer limitage;
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -46,27 +45,27 @@ public class Company {
         this.interest = interest;
     }
 
-   /* public int getLimitProblemSolving() {
-        return limitProblemSolving;
+    public Integer getLimitProblemSolving() {
+        return limitproblemsolving;
     }
 
-    public void setLimitProblemSolving(int limitProblemSolving) {
-        this.limitProblemSolving = limitProblemSolving;
+    public void setLimitProblemSolving(Integer limitProblemSolving) {
+        this.limitproblemsolving = limitProblemSolving;
     }
 
-    public int getLimitInterestScore() {
-        return limitInterestScore;
+    public Integer getLimitInterestScore() {
+        return limitinterestscore;
     }
 
-    public void setLimitInterestScore(int limitInterestScore) {
-        this.limitInterestScore = limitInterestScore;
+    public void setLimitInterestScore(Integer limitInterestScore) {
+        this.limitinterestscore = limitInterestScore;
     }
 
-    public int getLimitAge() {
-        return limitAge;
+    public Integer getLimitAge() {
+        return limitage;
     }
 
-    public void setLimitAge(int limitAge) {
-        this.limitAge = limitAge;
-    }*/
+    public void setLimitAge(Integer limitAge) {
+        this.limitage = limitAge;
+    }
 }

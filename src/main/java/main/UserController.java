@@ -14,7 +14,7 @@ public class UserController {
     @Autowired
     private UserRepository userRepository;
 
-    @GetMapping(path="/all")
+    @GetMapping(path="/all", produces = MediaType.APPLICATION_JSON_VALUE)
     public @ResponseBody
     Iterable<User> getAllUsers() {
         return userRepository.findAll();

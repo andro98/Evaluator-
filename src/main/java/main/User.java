@@ -7,19 +7,19 @@ import javax.persistence.*;
 public class User {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy= GenerationType.AUTO)
+    @Column(name = "id")
     private Integer id;
     @Column(name = "name")
     private String name;
     @Column(name = "interst")
     private String interst;
-    /*@Column(name = "problemSolving")
-    private int problemSolving;
-    @Column(name = "interstScore")
-    private int interstScore;
+    @Column(name = "problemsolving")
+    private Integer problemsolving;
+    @Column(name = "interstscore")
+    private Integer interstscore;
     @Column(name = "age")
-    private int age;*/
+    private Integer age;
 
     public Integer getId() {
         return id;
@@ -44,29 +44,28 @@ public class User {
     public void setInterst(String interst) {
         this.interst = interst;
     }
-/*
-    public int getProblemSolving() {
-        return problemSolving;
+
+    public Integer getProblemSolving() {
+        return problemsolving;
     }
 
-    public void setProblemSolving(int problemSolving) {
-        this.problemSolving = problemSolving;
+    public void setProblemSolving(Integer problemSolving) {
+        this.problemsolving = problemSolving;
     }
 
-    public int getInterstScore() {
-        return interstScore;
+    public Integer getInterstScore() {
+        return interstscore;
     }
 
-    public void setInterstScore(int interstScore) {
-        this.interstScore = interstScore;
+    public void setInterstScore(Integer interstScore) {
+        this.interstscore = interstScore;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
-   */
 }
