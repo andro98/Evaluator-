@@ -14,10 +14,15 @@ public class RecommendQuizzes {
 
     private User getUer(String id) {
         final String uri = "http://localhost:8080/user/" + id;
-
+        //log send request to user api try catch
         RestTemplate restTemplate = new RestTemplate();
         User result = restTemplate.getForObject(uri, User.class);
+        //log cacth
 
+
+        if(result == null){
+            //Log result null
+        }
         return result;
     }
 
