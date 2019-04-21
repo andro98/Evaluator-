@@ -15,12 +15,12 @@ public class Company {
     private String name;
     @Column(name="interest")
     private String interest;
-    /*@Column(name="limitProblemSolving")
+    @Column(name="limitproblemsolving")
     private int limitProblemSolving;
-    @Column(name="limitInterestScore")
+    @Column(name="limitinterestscore")
     private int limitInterestScore;
-    @Column(name="limitAge")
-    private int limitAge;*/
+    @Column(name="limitage")
+    private int limitAge;
 
     public int getId() {
         return id;
@@ -46,7 +46,7 @@ public class Company {
         this.interest = interest;
     }
 
-   /* public int getLimitProblemSolving() {
+   public int getLimitProblemSolving() {
         return limitProblemSolving;
     }
 
@@ -68,5 +68,5 @@ public class Company {
 
     public void setLimitAge(int limitAge) {
         this.limitAge = limitAge;
-    }*/
+    }
 }

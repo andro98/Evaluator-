@@ -21,6 +21,13 @@ public class ComapnyController {
         // This returns a JSON or XML with the companies
         return companyRepository.findAll();
     }
+    /***************************************************/
+    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
+    public Company getOneComapny(@PathVariable("id")String id)
+    {
+        return companyRepository.findOne(Integer.parseInt(id));
+
+    }
 
     /************************************************************************************/
 
@@ -33,24 +40,26 @@ public class ComapnyController {
         //Return Companies
 
         RecommendedCompany recommendedCompany = new RecommendedCompany();
-        recommendedCompany.Match(id);
+        List<Company>list=recommendedCompany.Match(id);
 
-        return recommendedCompany.Match(id);
+        return list!=null?list:null;
 
     }
     /*****************************************************/
     //give me company id and i will get all candidates that matches with its logistics
-   /* @RequestMapping(value = "recommendedCandidates/{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "recommendedCandidates/{id}",method = RequestMethod.GET)
     public List<User>getRecommendedCandidates(@PathVariable("id") String id )throws Exception
     {
+
         RecommendedCompany recommendedCompany=new RecommendedCompany();
         List<User>users=recommendedCompany.match(id);
-        return users;
+
+        return users!=null?users:null;
 
 
 
     }
-    */
+
 
 
 

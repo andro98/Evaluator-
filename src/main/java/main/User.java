@@ -14,12 +14,12 @@ public class User {
     private String name;
     @Column(name = "interst")
     private String interst;
-    /*@Column(name = "problemSolving")
+    @Column(name = "problemsolving")
     private int problemSolving;
-    @Column(name = "interstScore")
+    @Column(name = "interstscore")
     private int interstScore;
     @Column(name = "age")
-    private int age;*/
+    private int age;
 
     public Integer getId() {
         return id;
@@ -44,7 +44,7 @@ public class User {
     public void setInterst(String interst) {
         this.interst = interst;
     }
-/*
+
     public int getProblemSolving() {
         return problemSolving;
     }
@@ -68,5 +68,5 @@ public class User {
     public void setAge(int age) {
         this.age = age;
     }
-   */
+
 }

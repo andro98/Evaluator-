@@ -50,7 +50,7 @@ public class RecommendedCompany {
 
         for(int i =0;i<companies.size();i++)
         {
-            if(user.getInterst().equalsIgnoreCase(companies.get(i).getInterest()))
+            if(user.getInterst().equalsIgnoreCase(companies.get(i).getInterest())&&user.getAge()>=companies.get(i).getLimitAge())
             {
                 recCompany.add(companies.get(i));
             }
@@ -61,41 +61,58 @@ public class RecommendedCompany {
     //get unique company
     private Company getCompany(String id)
     {
-        final String url="localhost:8080/company/"+id;
-        RestTemplate restTemplate=new RestTemplate();
-        Company result = restTemplate.getForObject(url, Company.class);
-        return  result;
+        try{
+             final String url="http://localhost:8080/company/"+id;
+                RestTemplate restTemplate=new RestTemplate();
+                Company result = restTemplate.getForObject(url, Company.class);
+                return  result;}
+        catch (Exception e)
+        {
+            return null;
+        }
     }
     /**********************************************************************/
     private  List<User> getAllUsers() {
-        final String uri = "http://localhost:8080/user/all";
+        try {
+            final String uri = "http://localhost:8080/user/all";
 
-        RestTemplate restTemplate = new RestTemplate();
-        ResponseEntity<List<User>> result = restTemplate.exchange(uri,
-                HttpMethod.GET,
-                null ,
-                new ParameterizedTypeReference<List<User>>(){});
+            RestTemplate restTemplate = new RestTemplate();
+            ResponseEntity<List<User>> result = restTemplate.exchange(uri,
+                    HttpMethod.GET,
+                    null,
+                    new ParameterizedTypeReference<List<User>>() {
+                    });
 
-        List<User> users = result.getBody();
+            List<User> users = result.getBody();
 
-        return users;
+            return users;
+        }
+        catch(Exception e)
+        {
+            return null;
+        }
     }
     /************************************************************************/
-   /* public List<User>match(String id)
+   public List<User>match(String id)
     {
-        Company company=getCompany(id);
-        List<User>allUsers=getAllUsers();
-        List<User>recomCandidates=new ArrayList<>();
-        for(int i=0;i<allUsers.size();i++)
-        {
-            if(company.getInterest().equalsIgnoreCase(allUsers.get(i).getInterst())&&
-            company.getLimitAge()<=allUsers.get(i).getAge()&&company.getLimitProblemSolving()<=allUsers.get(i).getProblemSolving()&&
-            company.getLimitInterestScore()<=allUsers.get(i).getInterstScore())
-            {
-                recomCandidates.add(allUsers.get(i));
+        try {
+            Company company = getCompany(id);
+            List<User> allUsers = getAllUsers();
+            List<User> recomCandidates = new ArrayList<>();
+            //return allUsers;
+            for (int i = 0; i < allUsers.size(); i++) {
+                if (company.getInterest().equalsIgnoreCase(allUsers.get(i).getInterst()) &&
+                        company.getLimitAge() <= allUsers.get(i).getAge() && company.getLimitProblemSolving() <= allUsers.get(i).getProblemSolving() &&
+                        company.getLimitInterestScore() <= allUsers.get(i).getInterstScore()) {
+                    recomCandidates.add(allUsers.get(i));
 
+                }
             }
+            return recomCandidates;
         }
-        return recomCandidates;
-    }*/
+        catch(Exception e)
+        {
+            return null;
+        }
+    }
 }
