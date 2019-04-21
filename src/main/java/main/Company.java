@@ -8,14 +8,14 @@ import javax.persistence.*;
 public class Company {
 
     @Id
-    @Column(name = "id")
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private int id;
+    private Integer id;
     @Column(name="name")
     private String name;
-    @Column(name="interest")
+    @Column(name="interst")
     private String interest;
     @Column(name="limitproblemsolving")
+<<<<<<< HEAD
     private int limitProblemSolving;
     @Column(name="limitinterestscore")
     private int limitInterestScore;
@@ -23,10 +23,19 @@ public class Company {
     private int limitAge;
 
     public int getId() {
+=======
+    private Integer limitproblemsolving;
+    @Column(name="limitinterestscore")
+    private Integer limitinterestscore;
+    @Column(name="limitage")
+    private Integer limitage;
+
+    public Integer getId() {
+>>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -46,27 +55,37 @@ public class Company {
         this.interest = interest;
     }
 
+<<<<<<< HEAD
    public int getLimitProblemSolving() {
         return limitProblemSolving;
+=======
+    public Integer getLimitProblemSolving() {
+        return limitproblemsolving;
+>>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
     }
 
-    public void setLimitProblemSolving(int limitProblemSolving) {
-        this.limitProblemSolving = limitProblemSolving;
+    public void setLimitProblemSolving(Integer limitProblemSolving) {
+        this.limitproblemsolving = limitProblemSolving;
     }
 
-    public int getLimitInterestScore() {
-        return limitInterestScore;
+    public Integer getLimitInterestScore() {
+        return limitinterestscore;
     }
 
-    public void setLimitInterestScore(int limitInterestScore) {
-        this.limitInterestScore = limitInterestScore;
+    public void setLimitInterestScore(Integer limitInterestScore) {
+        this.limitinterestscore = limitInterestScore;
     }
 
-    public int getLimitAge() {
-        return limitAge;
+    public Integer getLimitAge() {
+        return limitage;
     }
 
+<<<<<<< HEAD
     public void setLimitAge(int limitAge) {
         this.limitAge = limitAge;
+=======
+    public void setLimitAge(Integer limitAge) {
+        this.limitage = limitAge;
+>>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
     }
 }
