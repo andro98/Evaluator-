@@ -21,18 +21,6 @@ public class QuizzeController {
         // This returns a JSON or XML with the users
         return quizzeRepository.findAll();
     }
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public List<Quizze> getRecommendedQuizzes(@PathVariable("id") String id)throws Exception
-    {
-        //Get User by this ID
-        //Get All quizzes
-        //Match Quizze with interest
-        //Return Quizze
-        RecommendQuizzes recommendQuizzes = new RecommendQuizzes();
-        recommendQuizzes.Match(id);
 
-        return recommendQuizzes.Match(id);
-
-    }
 
 }

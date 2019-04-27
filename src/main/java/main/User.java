@@ -15,19 +15,11 @@ public class User {
     @Column(name = "interst")
     private String interst;
     @Column(name = "problemsolving")
-<<<<<<< HEAD
-    private int problemSolving;
-    @Column(name = "interstscore")
-    private int interstScore;
-    @Column(name = "age")
-    private int age;
-=======
     private Integer problemsolving;
     @Column(name = "interstscore")
     private Integer interstscore;
     @Column(name = "age")
     private Integer age;
->>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
 
     public Integer getId() {
         return id;
@@ -53,13 +45,8 @@ public class User {
         this.interst = interst;
     }
 
-<<<<<<< HEAD
-    public int getProblemSolving() {
-        return problemSolving;
-=======
     public Integer getProblemSolving() {
         return problemsolving;
->>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
     }
 
     public void setProblemSolving(Integer problemSolving) {
@@ -81,8 +68,4 @@ public class User {
     public void setAge(Integer age) {
         this.age = age;
     }
-<<<<<<< HEAD
-
-=======
->>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
 }

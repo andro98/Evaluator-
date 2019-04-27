@@ -1,16 +1,25 @@
-package main;
+package Recommeder;
 
-import java.util.Date;
+import javax.persistence.*;
 
+@Entity
+@Table(name="mylog")
 public class Log {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "id")
     private Integer id;
+    @Column(name = "message")
     private String message;
+    @Column(name = "type")
     private Integer type;
+    @Column(name = "userid")
     private Integer userID;
-    private Date date;
+    @Column(name = "date")
+    private String date;
 
-    public Log( String message, Integer type, Integer userID, Date date) {
+    public Log(String message, Integer type, Integer userID, String date) {
 
         this.message = message;
         this.type = type;
@@ -50,11 +59,11 @@ public class Log {
         this.userID = userID;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }

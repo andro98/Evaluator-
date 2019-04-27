@@ -15,15 +15,7 @@ public class Company {
     @Column(name="interst")
     private String interest;
     @Column(name="limitproblemsolving")
-<<<<<<< HEAD
-    private int limitProblemSolving;
-    @Column(name="limitinterestscore")
-    private int limitInterestScore;
-    @Column(name="limitage")
-    private int limitAge;
 
-    public int getId() {
-=======
     private Integer limitproblemsolving;
     @Column(name="limitinterestscore")
     private Integer limitinterestscore;
@@ -31,8 +23,19 @@ public class Company {
     private Integer limitage;
 
     public Integer getId() {
->>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
         return id;
+    }
+
+    public Integer getLimitproblemsolving() {
+        return limitproblemsolving;
+    }
+
+    public Integer getLimitinterestscore() {
+        return limitinterestscore;
+    }
+
+    public Integer getLimitage() {
+        return limitage;
     }
 
     public void setId(Integer id) {
@@ -55,13 +58,9 @@ public class Company {
         this.interest = interest;
     }
 
-<<<<<<< HEAD
-   public int getLimitProblemSolving() {
-        return limitProblemSolving;
-=======
+
     public Integer getLimitProblemSolving() {
         return limitproblemsolving;
->>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
     }
 
     public void setLimitProblemSolving(Integer limitProblemSolving) {
@@ -80,12 +79,7 @@ public class Company {
         return limitage;
     }
 
-<<<<<<< HEAD
-    public void setLimitAge(int limitAge) {
-        this.limitAge = limitAge;
-=======
     public void setLimitAge(Integer limitAge) {
         this.limitage = limitAge;
->>>>>>> a2f660512aaba28fd91b3a751412674ae311c577
     }
 }
