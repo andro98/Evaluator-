@@ -24,20 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313b774d-c4ea-4112-b1a4-1c8ebe40f6bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Quizze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Quizze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ComapnyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ComapnyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Evaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Evaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Quizze.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Quizze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/User.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,29 +47,84 @@
       <FILTER>main.*</FILTER>
     </SUITE>
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/HandleRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            <state relative-caret-position="107">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/HandleRequests.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="102">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="30" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="62" column="29" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="29" />
+              <folding>
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,10 +133,48 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Evaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="182">
+              <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/IRecomCandidates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/IRecomCompany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/RecommendCandidates.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,8 +217,6 @@
         <option value="$PROJECT_DIR$/src/main/java/main/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/QuizzeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/RecommendQuizzes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Recommeder/IRecomCompany.java" />
         <option value="$PROJECT_DIR$/src/main/java/Recommeder/IRecomQuizze.java" />
         <option value="$PROJECT_DIR$/src/main/java/Recommeder/IRecomCandidates.java" />
@@ -156,6 +237,8 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/main/Quizze.java" />
         <option value="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" />
       </list>
     </option>
@@ -219,17 +302,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1383" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +343,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Evaluator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Evaluator-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Recommeder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -282,10 +372,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556735303040" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -306,24 +398,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EvaluatorTest.matchQuizze">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.Application" />
-      <module name="Evaluator-" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recommeder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvaluatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Evaluator-" />
+  <component name="RunManager" selected="JUnit.EvaluatorTest.matchQuizze (1)">
+    <configuration name="EvaluatorTest.matchCandidates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evaluator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Testing.*" />
@@ -332,7 +409,56 @@
       </extension>
       <option name="PACKAGE_NAME" value="Testing" />
       <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="matchCandidates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluatorTest.matchCandidatesF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evaluator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testing" />
+      <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
+      <option name="METHOD_NAME" value="matchCandidatesF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluatorTest.matchCompany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evaluator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testing" />
+      <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
+      <option name="METHOD_NAME" value="matchCompany" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluatorTest.matchQuizze (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evaluator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testing" />
+      <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
+      <option name="METHOD_NAME" value="matchQuizze" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -353,28 +479,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvaluatorTesting.testListAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Evaluator-" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Testing" />
-      <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTesting" />
-      <option name="METHOD_NAME" value="testListAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EvaluatorTest.matchQuizze (1)" />
+        <item itemvalue="JUnit.EvaluatorTest.matchCandidatesF" />
+        <item itemvalue="JUnit.EvaluatorTest.matchCompany" />
+        <item itemvalue="JUnit.EvaluatorTest.matchCandidates" />
         <item itemvalue="JUnit.EvaluatorTest.matchQuizze" />
-        <item itemvalue="JUnit.EvaluatorTesting.testListAll" />
-        <item itemvalue="JUnit.EvaluatorTest" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -392,35 +503,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 41m 25s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 42m 36s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 45m 19s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 48m 09s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 51m 40s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 58m 28s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 59m 57s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 20h 00m 57s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EvaluatorTesting_testListAll - 2019.05.01 at 20h 20m 53s.xml">
       <configuration name="EvaluatorTesting.testListAll" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 20h 24m 44s.xml">
       <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze_(1) - 2019.05.01 at 22h 24m 25s.xml">
+      <configuration name="EvaluatorTest.matchQuizze (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCompany - 2019.05.01 at 22h 40m 47s.xml">
+      <configuration name="EvaluatorTest.matchCompany" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCandidates - 2019.05.01 at 23h 19m 44s.xml">
+      <configuration name="EvaluatorTest.matchCandidates" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCompany - 2019.05.01 at 23h 21m 05s.xml">
+      <configuration name="EvaluatorTest.matchCompany" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze_(1) - 2019.05.01 at 23h 21m 41s.xml">
+      <configuration name="EvaluatorTest.matchQuizze (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCandidatesF - 2019.05.01 at 23h 24m 57s.xml">
+      <configuration name="EvaluatorTest.matchCandidatesF" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze_(1) - 2019.05.01 at 23h 27m 04s.xml">
+      <configuration name="EvaluatorTest.matchQuizze (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze_(1) - 2019.05.01 at 23h 28m 14s.xml">
+      <configuration name="EvaluatorTest.matchQuizze (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -433,10 +544,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -446,8 +556,8 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.13584287" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49856734" weight="0.38625205" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.35679215" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49856734" weight="0.38526914" />
+      <window_info active="true" anchor="bottom" id="Debug" order="4" visible="true" weight="0.3555241" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3289689" />
@@ -459,12 +569,12 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.19818456" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" />
-      <window_info anchor="right" id="Jenkins" order="9" weight="0.3343419" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" />
+      <window_info anchor="right" id="Jenkins" order="8" weight="0.3343419" />
+      <window_info anchor="right" id="Maven" order="9" weight="0.19798657" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -517,6 +627,12 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -644,40 +760,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/IRecomCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/IRecomCandidates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/RecommendedCompany.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/main/RecommendQuizzes.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/RecommendCandidates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/LogRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -691,27 +775,6 @@
           <caret line="5" column="73" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -734,19 +797,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -754,13 +804,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -778,13 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -853,91 +890,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/Launcher.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Math.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/HandleRequests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/misc/Launcher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
+        <state relative-caret-position="107">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
-            <element signature="e#52271#52272#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="1652" selection-start-line="1652" selection-end-line="1652" />
+        <state relative-caret-position="280">
+          <caret line="62" column="29" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="29" />
           <folding>
-            <element signature="e#62860#62861#0" expanded="true" />
-            <element signature="e#62916#62917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="414" selection-start-line="414" selection-end-line="414" />
-          <folding>
-            <element signature="e#10361#10362#0" expanded="true" />
-            <element signature="e#10388#10389#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="182">
+          <caret line="52" column="24" lean-forward="true" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/IRecomCandidates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/IRecomCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/RecommendCandidates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/HandleRequests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="221">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
         </state>
       </provider>
     </entry>

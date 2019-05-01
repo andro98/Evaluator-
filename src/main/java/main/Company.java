@@ -14,6 +14,16 @@ public class Company {
     private String name;
     @Column(name="interst")
     private String interest;
+
+    public Company(Integer id, String name, String interest, Integer limitproblemsolving, Integer limitinterestscore, Integer limitage) {
+        this.id = id;
+        this.name = name;
+        this.interest = interest;
+        this.limitproblemsolving = limitproblemsolving;
+        this.limitinterestscore = limitinterestscore;
+        this.limitage = limitage;
+    }
+
     @Column(name="limitproblemsolving")
 
     private Integer limitproblemsolving;

@@ -10,6 +10,16 @@ public class User {
     @GeneratedValue(strategy= GenerationType.AUTO)
     @Column(name = "id")
     private Integer id;
+
+    public User(Integer id, String name, String interst, Integer problemsolving, Integer interstscore, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.interst = interst;
+        this.problemsolving = problemsolving;
+        this.interstscore = interstscore;
+        this.age = age;
+    }
+
     @Column(name = "name")
     private String name;
     @Column(name = "interst")
