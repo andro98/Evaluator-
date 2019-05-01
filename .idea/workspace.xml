@@ -24,20 +24,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="313b774d-c4ea-4112-b1a4-1c8ebe40f6bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Quizze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Quizze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Recommeder/HandleRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/ComapnyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/ComapnyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Evaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Evaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/Quizze.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Quizze.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/main/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Testing/EvaluatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Testing/EvaluatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Testing/EvaluatorTesting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/User.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,16 +53,52 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+            <state relative-caret-position="250">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1417#1418#0" expanded="true" />
-                <element signature="e#1467#1468#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/Company.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="28" column="137" selection-start-line="28" selection-start-column="137" selection-end-line="28" selection-end-column="137" />
+              <folding>
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="117" selection-start-line="27" selection-start-column="117" selection-end-line="27" selection-end-column="117" />
+              <folding>
+                <element signature="e#944#945#0" expanded="true" />
+                <element signature="e#981#982#0" expanded="true" />
+                <element signature="e#1042#1043#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="true" />
+                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#1169#1170#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
+                <element signature="e#1305#1306#0" expanded="true" />
+                <element signature="e#1331#1332#0" expanded="true" />
+                <element signature="e#1370#1371#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/HandleRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="595">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Evaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
+            <state relative-caret-position="544">
               <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -134,8 +165,6 @@
         <option value="$PROJECT_DIR$/src/main/java/main/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/QuizzeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/RecommendQuizzes.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/main/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Recommeder/IRecomCompany.java" />
         <option value="$PROJECT_DIR$/src/main/java/Recommeder/IRecomQuizze.java" />
         <option value="$PROJECT_DIR$/src/main/java/Recommeder/IRecomCandidates.java" />
@@ -156,7 +185,9 @@
         <option value="$PROJECT_DIR$/.travis.yml" />
         <option value="$PROJECT_DIR$/src/main/java/main/Quizze.java" />
         <option value="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main/Company.java" />
       </list>
     </option>
   </component>
@@ -219,17 +250,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1296" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -261,6 +292,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Evaluator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Evaluator-" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Recommeder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -271,22 +310,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Testing" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Evaluator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Evaluator-" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556735303040" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556749256256" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -306,23 +338,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EvaluatorTest.matchQuizze">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="main.Application" />
-      <module name="Evaluator-" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Recommeder.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EvaluatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.EvaluatorTest.matchCandidates">
+    <configuration name="EvaluatorTest.matchCandidates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Evaluator-" />
       <extension name="coverage">
         <pattern>
@@ -332,7 +349,40 @@
       </extension>
       <option name="PACKAGE_NAME" value="Testing" />
       <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="matchCandidates" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluatorTest.matchCandidatesF" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evaluator-" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testing" />
+      <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
+      <option name="METHOD_NAME" value="matchCandidatesF" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EvaluatorTest.matchCompany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Evaluator-" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testing" />
+      <option name="MAIN_CLASS_NAME" value="Testing.EvaluatorTest" />
+      <option name="METHOD_NAME" value="matchCompany" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -371,10 +421,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EvaluatorTest.matchCandidates" />
+        <item itemvalue="JUnit.EvaluatorTest.matchCandidatesF" />
+        <item itemvalue="JUnit.EvaluatorTest.matchCompany" />
         <item itemvalue="JUnit.EvaluatorTest.matchQuizze" />
         <item itemvalue="JUnit.EvaluatorTesting.testListAll" />
-        <item itemvalue="JUnit.EvaluatorTest" />
-        <item itemvalue="Application.Application" />
       </list>
     </recent_temporary>
   </component>
@@ -392,24 +443,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 41m 25s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 42m 36s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 45m 19s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 48m 09s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 51m 40s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 58m 28s.xml">
-      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 19h 59m 57s.xml">
       <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
     </history-entry>
@@ -422,6 +455,24 @@
     <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 20h 24m 44s.xml">
       <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 20h 25m 58s.xml">
+      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.01 at 20h 26m 54s.xml">
+      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchQuizze - 2019.05.02 at 00h 08m 15s.xml">
+      <configuration name="EvaluatorTest.matchQuizze" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCompany - 2019.05.02 at 00h 18m 16s.xml">
+      <configuration name="EvaluatorTest.matchCompany" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCandidatesF - 2019.05.02 at 00h 19m 40s.xml">
+      <configuration name="EvaluatorTest.matchCandidatesF" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EvaluatorTest_matchCandidates - 2019.05.02 at 00h 20m 48s.xml">
+      <configuration name="EvaluatorTest.matchCandidates" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -433,10 +484,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1296" height="936" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20877458" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22330096" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -446,7 +497,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.13584287" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49856734" weight="0.38625205" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49856734" weight="0.2938979" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.35679215" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -695,27 +746,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#944#945#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1042#1043#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1169#1170#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -734,19 +764,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Company.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -899,16 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Evaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTesting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -921,22 +928,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Recommeder/HandleRequests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="595">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Evaluator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
+        <state relative-caret-position="544">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1417#1418#0" expanded="true" />
-            <element signature="e#1467#1468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="117" selection-start-line="27" selection-start-column="117" selection-end-line="27" selection-end-column="117" />
+          <folding>
+            <element signature="e#944#945#0" expanded="true" />
+            <element signature="e#981#982#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1169#1170#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1331#1332#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="28" column="137" selection-start-line="28" selection-start-column="137" selection-end-line="28" selection-end-column="137" />
+          <folding>
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Testing/EvaluatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -21,6 +21,19 @@ public class User {
     @Column(name = "age")
     private Integer age;
 
+    public User(){
+
+    }
+
+    public User(Integer id, String name, String interst, Integer problemsolving, Integer interstscore, Integer age) {
+        this.id = id;
+        this.name = name;
+        this.interst = interst;
+        this.problemsolving = problemsolving;
+        this.interstscore = interstscore;
+        this.age = age;
+    }
+
     public Integer getId() {
         return id;
     }

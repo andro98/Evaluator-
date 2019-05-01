@@ -9,8 +9,10 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;*/
 
+import main.Company;
 import main.Evaluator;
 import main.Quizze;
+import main.User;
 import org.json.JSONArray;
 import org.junit.Before;
 import org.junit.Test;
@@ -110,6 +112,67 @@ public class EvaluatorTest {
         } catch (Exception e) {
             e.printStackTrace();
         }*/
+    }
+
+    @Test
+    public void matchCompany(){
+        Company C1 =new Company(2,"raya","C#",5,6,25);
+        List<Company> companies = new ArrayList<>();
+        companies.add(C1);
+        Evaluator evaluator = new Evaluator();
+        try {
+            List<Company> companies2 = evaluator.getRecommendedCompanies("2");
+            if(companies.size() == companies2.size()){
+                for(int i = 0;i<companies2.size(); i++){
+                    if(!companies.get(i).getInterest().equals(companies2.get(i).getInterest()))  {
+                        throw new Exception();
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
+    @Test
+    public void matchCandidatesF(){
+        User user =new User(3,"Ayman","java",6,8,20);
+        List<User> Users = new ArrayList<>();
+        Users.add(user);
+        Evaluator evaluator = new Evaluator();
+        try {
+            List<User> Users2 = evaluator.getRecommendedCandidates("2");
+            if(Users.size() == Users2.size()){
+                for(int i = 0;i<Users2.size(); i++){
+                    if(!Users.get(i).getInterst().equals(Users2.get(i).getInterst()))  {
+                        throw new Exception();
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Test
+    public void matchCandidates(){
+        User user =new User(3,"Ayman","java",6,8,20);
+        List<User> Users = new ArrayList<>();
+        Users.add(user);
+        Evaluator evaluator = new Evaluator();
+        try {
+            List<User> Users2 = evaluator.getRecommendedCandidates("3");
+            if(Users.size() == Users2.size()){
+                for(int i = 0;i<Users2.size(); i++){
+                    if(!Users.get(i).getInterst().equals(Users2.get(i).getInterst()))  {
+                        throw new Exception();
+                    }
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
 

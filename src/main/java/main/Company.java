@@ -22,6 +22,19 @@ public class Company {
     @Column(name="limitage")
     private Integer limitage;
 
+    public Company(){
+
+    }
+
+    public Company(Integer id, String name, String interest, Integer limitproblemsolving, Integer limitinterestscore, Integer limitage) {
+        this.id = id;
+        this.name = name;
+        this.interest = interest;
+        this.limitproblemsolving = limitproblemsolving;
+        this.limitinterestscore = limitinterestscore;
+        this.limitage = limitage;
+    }
+
     public Integer getId() {
         return id;
     }
