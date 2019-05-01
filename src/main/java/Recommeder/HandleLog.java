@@ -10,7 +10,7 @@ public class HandleLog {
                 + "&type="+l.getType()
                 + "&date="+l.getDate();*/
         try {
-            final String uri = "http://localhost:8080/Log/add";
+            final String uri = "http://evaluator-component.herokuapp.com/Log/add";
 
             RestTemplate restTemplate = new RestTemplate();
             Log result = restTemplate.postForObject(uri, l, Log.class);

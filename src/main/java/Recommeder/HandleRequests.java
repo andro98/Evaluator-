@@ -13,7 +13,8 @@ import java.util.List;
 public class HandleRequests {
 
     public User getUerByID(String id) {
-        final String uri = "http://localhost:8080/user/" + id;
+        //final String uri = "http://localhost:8080/user/" + id;
+        final String uri = "https://evaluator-component.herokuapp.com/user/" + id;
         //log send request to user api try catch
         RestTemplate restTemplate = new RestTemplate();
         User result = restTemplate.getForObject(uri, User.class);
@@ -28,8 +29,9 @@ public class HandleRequests {
 
     public List<User> getAllUsers() {
         try {
-            final String uri = "http://localhost:8080/user/all";
+            //final String uri = "http://localhost:8080/user/all";
 
+            final String uri = "https://evaluator-component.herokuapp.com/user/all";
             RestTemplate restTemplate = new RestTemplate();
             ResponseEntity<List<User>> result = restTemplate.exchange(uri,
                     HttpMethod.GET,
@@ -47,7 +49,9 @@ public class HandleRequests {
 
 
     public List<Quizze> getAllQuizze() {
-        final String uri = "http://localhost:8080/quizze/all";
+        //final String uri = "http://localhost:8080/quizze/all";
+
+        final String uri = "https://evaluator-component.herokuapp.com/quizze/all" ;
 
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<List<Quizze>> result = restTemplate.exchange(uri,
@@ -63,9 +67,10 @@ public class HandleRequests {
 
     public Company getCompanyByID(String id) {
         try {
-            final String url = "http://localhost:8080/company/" + id;
+            //final String url = "http://localhost:8080/company/" + id;
+            final String uri = "https://evaluator-component.herokuapp.com/company/" + id ;
             RestTemplate restTemplate = new RestTemplate();
-            Company result = restTemplate.getForObject(url, Company.class);
+            Company result = restTemplate.getForObject(uri, Company.class);
             return result;
         } catch (Exception e) {
             return null;
@@ -75,7 +80,8 @@ public class HandleRequests {
     public List<Company> getAllCompanies() {
         try {
             //Sending request to user api to get all companies information
-            final String uri = "http://localhost:8080/company/all";
+            //final String uri = "http://localhost:8080/company/all";
+            final String uri = "https://evaluator-component.herokuapp.com/company/all";
 
             RestTemplate restTemplate = new RestTemplate();
             ResponseEntity<List<Company>> result = restTemplate.exchange(uri,

@@ -21,7 +21,7 @@ public class UserController {
 
     }
 
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public User getUserByID(@PathVariable("id") String id)throws Exception
     {
         return userRepository.findOne(Integer.parseInt(id));

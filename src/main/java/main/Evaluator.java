@@ -1,10 +1,8 @@
 package main;
 
 import Recommeder.*;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -23,7 +21,7 @@ public class Evaluator {
 
     private static final DateFormat sdf = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
 
-    @RequestMapping(value = "/Companies/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/Companies/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Company> getRecommendedCompanies(@PathVariable("id") String id) throws Exception {
         try {
             recomCompany = new RecommendCompany();
@@ -36,7 +34,7 @@ public class Evaluator {
         }
     }
 
-    @RequestMapping(value = "/Quizze/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/Quizze/{id}",  produces = MediaType.APPLICATION_JSON_VALUE)
     public List<Quizze> getRecommendedQuizzes(@PathVariable("id") String id) throws Exception {
         try {
             recomQuizze = new RecommendQuizze();
@@ -46,7 +44,7 @@ public class Evaluator {
         }
     }
 
-    @RequestMapping(value = "/Candidates/{id}", method = RequestMethod.GET)
+    @GetMapping(value = "/Candidates/{id}", produces = MediaType.APPLICATION_JSON_VALUE)
     public List<User> getRecommendedCandidates(@PathVariable("id") String id) throws Exception {
         try {
             recomCandidates = new RecommendCandidates();

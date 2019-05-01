@@ -21,7 +21,7 @@ public class ComapnyController {
         return companyRepository.findAll();
     }
     /***************************************************/
-    @RequestMapping(value = "/{id}",method = RequestMethod.GET)
+    @GetMapping(value = "/{id}",produces = MediaType.APPLICATION_JSON_VALUE)
     public Company getOneComapny(@PathVariable("id")String id)
     {
         return companyRepository.findOne(Integer.parseInt(id));
