@@ -13,6 +13,16 @@ public class Quizze {
     private String name;
     private String interst;
 
+    public Quizze(){
+
+    }
+
+    public Quizze(Integer id, String name, String interst) {
+        this.id = id;
+        this.name = name;
+        this.interst = interst;
+    }
+
     public Integer getId() {
         return id;
     }
